@@ -6,7 +6,8 @@ Pour la simulation on utilisera `vpython` ([documentation](https://vpython.org/c
 
 À titre d'illustration, la figure présente la simulation pour 3 anneaux au début et à la fin de la simulation.
 
-! [illustration]()
+![illustration](images/img.png)
+*Figure 1: Illustration de la simulation pour 3 anneaux au début et à la fin de la simulation*
 
 ## Règles du jeu
 
