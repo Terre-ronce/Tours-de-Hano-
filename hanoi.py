@@ -7,7 +7,7 @@ class Hanoi:
     """
     Classe représentant le jeu de Hanoi.
 
-    Attributes:
+    Attributs:
         nombre_anneaux (int): Le nombre d'anneaux dans le jeu.
         rayons (list): La liste des rayons des anneaux.
         hauteur (float): La hauteur totale du jeu.
@@ -15,7 +15,7 @@ class Hanoi:
         longueur (int): La longueur totale du jeu.
         compteur_operations (int): Le compteur d'opérations effectuées.
 
-    Methods:
+    Méthodes:
         Assembler(): Assemble les éléments du jeu.
         anneaux_sur_tour(): Retourne un dictionnaire contenant les anneaux présents sur chaque tour.
         Deplacer_anneau(tour: str, anneau: Anneau, texte_comptage): Déplace un anneau d'une tour à une autre.
@@ -25,7 +25,7 @@ class Hanoi:
         """
         Initialise une instance de la classe Hanoi.
 
-        Args:
+        Arguments:
             nombre_anneaux (int): Le nombre d'anneaux dans le jeu.
         """
         self.nombre_anneaux = nombre_anneaux
@@ -61,7 +61,7 @@ class Hanoi:
         """
         Retourne un dictionnaire contenant les anneaux présents sur chaque tour.
 
-        Returns:
+        Retours:
             dict: Un dictionnaire avec les tours comme clés et les anneaux comme valeurs.
         """
         dico = {'Tour1': [], 'Tour2': [], 'Tour3': []}
@@ -79,7 +79,7 @@ class Hanoi:
         """
         Déplace un anneau d'une tour à une autre.
 
-        Args:
+        Arguments:
             tour (str): Le nom de la tour cible.
             anneau (Anneau): L'anneau à déplacer.
             texte_comptage (VPython.text): Le texte affichant le compteur d'opérations.
@@ -114,6 +114,6 @@ class Hanoi:
             position_anneaux.y -= 0.05
             anneau.obj.pos = position_anneaux
 
-        # Incrémenter le compteur d'opérations
+        # incrémentation du compteur d'opérations
         self.compteur_operations += 1
         texte_comptage.text = f"Nombres d'opérations comptés : {self.compteur_operations}"
