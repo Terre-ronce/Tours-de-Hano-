@@ -4,7 +4,9 @@ Ce projet consiste à simuler en 3D la résolution récursive du jeu Tours de Ha
 
 Pour la simulation on utilisera `vpython` [[1]](https://vpython.org/contents/doc.html) et pour la résolution ainsi que les règles, on se réfèrera à la page Wikipédia du jeu [[2]](https://fr.wikipedia.org/wiki/Tours_de_Hano%C3%AF).
 
-Le résultat final pour une simulation à 3 anneaux se présente comme suit (vidéo accélérée):
+### Exemple
+
+La simulation du jeu à 3 anneaux se présente comme suit (vidéo accélérée):
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/850788c3-645f-43e0-85f5-c3dbad096389" alt="animation" />
